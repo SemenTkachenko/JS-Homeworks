@@ -1,0 +1,67 @@
+body {
+	background-color: #8B8970;
+}
+
+#wrapper {
+	width: 600px;
+	margin: 100px auto;
+}
+
+h1 {
+	color: white;
+	font-size: 75px;
+	text-align: center;
+}
+
+input[type="button"] {
+	height: 40px;
+	width: 150px;
+	border: none;
+	margin-right: 70px;
+	font-size: 23px;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+}
+
+input[type="button"]:hover {
+	background: #a8a7a9;
+}
+
+input[type="button"]:focus {
+	outline: 0;
+}
+
+input[name="start-count"] {
+	background: #5cc547;
+}
+
+input[name="start-count"]:hover {
+	background: #69e751;
+}
+
+input[name="reset-count"] {
+	margin-right: 0;
+}
+
+.stop[name="start-count"] {
+	background: #c91c2d;
+}
+
+.stop[name="start-count"]:hover {
+	background: #ec1328;
+}
+
+p {
+	margin: 10px 0;
+	font-size: 40px;
+	text-align: center;
+}
+
+p.split-timer {
+	color: #fff;
+}
+
+p.stop-timer {
+	color: #FF3030;
+}
